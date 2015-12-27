@@ -3,13 +3,14 @@
 This file describes the variables in the data file `result.txt`, created by the script in `run_analysis.R`.
 
 The variables were selected from the full set from the *Human Activity Recognition Using Smartphones Dataset*. 
-Please read the file `README.txt` for more details on how they were measured. This code book describes only
-the variable names and a generic, textual description.
+Please read the file `README.txt` for more details on how they were measured. Please see also 
+http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names for more information.
 
 Variable names were extended/made more descriptive as per requirements. Since there are several variations on the measures
 that caused some long variable names.
 
 ## Variables in the Time Domain 
+
 
 | Variable Name | Description | 
 | --- | --- | 
@@ -54,6 +55,9 @@ that caused some long variable names.
 | TimeDomain-BodyAngularVelocityJerkMagnitude-mean | Mean Magnitude for Body Angular Velocity Jerk |
 | TimeDomain-BodyAngularVelocityJerkMagnitude-std | Standard Deviation Magnitude for Body Angular Velocity Jerk|
  
+All units for acceleration are Gs (9.80665 m/seg2). All units for angular velocity are radians/second. 
+All values are normalized in the range [-1,1].
+
 ## Variables in the Frequency Domain 
  
 | Variable Name | Description | 
@@ -97,6 +101,9 @@ that caused some long variable names.
 | FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-mean | Mean Magnitude for Body Angular Velocity Jerk |
 | FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-std | Standard Deviation Magnitude for Body Angular Velocity Jerk |
 | FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-meanFrequency | Mean Frequency Magnitude for Body Angular Velocity Jerk |
+ 
+All units for acceleration are Gs (9.80665 m/seg2). All units for angular velocity are radians/second. 
+All values are normalized in the range [-1,1].
  
 Please note that the last 9 variables contained "BodyBody" in their names in the original data. 
   
