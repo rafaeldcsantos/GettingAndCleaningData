@@ -11,6 +11,8 @@ that caused some long variable names.
 
 ## Variables in the Time Domain 
 
+All units for acceleration are Gs (9.80665 m/seg2). All units for angular velocity are radians/second. 
+All values are normalized in the range [-1,1].
 
 | Variable Name | Description | 
 | --- | --- | 
@@ -55,10 +57,12 @@ that caused some long variable names.
 | TimeDomain-BodyAngularVelocityJerkMagnitude-mean | Mean Magnitude for Body Angular Velocity Jerk |
 | TimeDomain-BodyAngularVelocityJerkMagnitude-std | Standard Deviation Magnitude for Body Angular Velocity Jerk|
  
-All units for acceleration are Gs (9.80665 m/seg2). All units for angular velocity are radians/second. 
-All values are normalized in the range [-1,1].
+
 
 ## Variables in the Frequency Domain 
+
+All units for acceleration are Gs (9.80665 m/seg2). All units for angular velocity are radians/second. 
+All values are normalized in the range [-1,1].
  
 | Variable Name | Description | 
 | --- | --- | 
@@ -102,8 +106,7 @@ All values are normalized in the range [-1,1].
 | FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-std | Standard Deviation Magnitude for Body Angular Velocity Jerk |
 | FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-meanFrequency | Mean Frequency Magnitude for Body Angular Velocity Jerk |
  
-All units for acceleration are Gs (9.80665 m/seg2). All units for angular velocity are radians/second. 
-All values are normalized in the range [-1,1].
+
  
 Please note that the last 9 variables contained "BodyBody" in their names in the original data. 
   
