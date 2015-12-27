@@ -73,7 +73,7 @@ that caused some long variable names.
 | FrequencyDomain-BodyAccelerationJerk-std-X | Standard Deviation Body Acceleration (Jerk) on axis X |
 | FrequencyDomain-BodyAccelerationJerk-std-Y | Same for axis Y | 
 | FrequencyDomain-BodyAccelerationJerk-std-Z | Same for axis Z | 
-| FrequencyDomain-BodyAccelerationJerk-meanFrequency-X | | Mean Body Acceleration (Jerk) Frequency on axis X |
+| FrequencyDomain-BodyAccelerationJerk-meanFrequency-X | Mean Body Acceleration (Jerk) Frequency on axis X |
 | FrequencyDomain-BodyAccelerationJerk-meanFrequency-Y | Same for axis Y | 
 | FrequencyDomain-BodyAccelerationJerk-meanFrequency-Z | Same for axis Z | 
 | FrequencyDomain-BodyAngularVelocity-mean-X | Mean Body Angular Velocity on axis X |
@@ -91,12 +91,12 @@ that caused some long variable names.
 | FrequencyDomain-BodyBodyAccelerationJerkMagnitude-mean | Mean Magnitude for Body Acceleration (Jerk) |
 | FrequencyDomain-BodyBodyAccelerationJerkMagnitude-std | Standard Deviation for Body Acceleration (Jerk) |
 | FrequencyDomain-BodyBodyAccelerationJerkMagnitude-meanFrequency | Mean Frequency Magnitude for Body Acceleration (Jerk) |
-| FrequencyDomain-BodyBodyAngularVelocityMagnitude-mean | 
-| FrequencyDomain-BodyBodyAngularVelocityMagnitude-std | 
-| FrequencyDomain-BodyBodyAngularVelocityMagnitude-meanFrequency | 
-| FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-mean | 
-| FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-std | 
-| FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-meanFrequency | 
+| FrequencyDomain-BodyBodyAngularVelocityMagnitude-mean | Mean Magnitude for Body Angular Velocity | 
+| FrequencyDomain-BodyBodyAngularVelocityMagnitude-std | Standard Deviation Magnitude for Body Angular Velocity | 
+| FrequencyDomain-BodyBodyAngularVelocityMagnitude-meanFrequency | Mean Frequency Magnitude for Body Angular Velocity | 
+| FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-mean | Mean Magnitude for Body Angular Velocity Jerk |
+| FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-std | Standard Deviation Magnitude for Body Angular Velocity Jerk |
+| FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-meanFrequency | Mean Frequency Magnitude for Body Angular Velocity Jerk |
  
 Please note that the last 9 variables contained "BodyBody" in their names in the original data. 
   
@@ -107,4 +107,4 @@ For completeness, we preserved the data used to calculate the means per category
 | Variable Name | Description | 
 | --- | --- | 
 | Subject | Subject index (1..30) |
-| Activity | One of "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING" |
+| Activity | One of "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING" |
