@@ -11,8 +11,12 @@ that caused some long variable names.
 
 ## Variables in the Time Domain 
 
-All units for acceleration are Gs (9.80665 m/seg2). All units for angular velocity are radians/second. 
-All values are normalized in the range [-1,1].
+All values are normalized in the range [-1,1]. 
+
+In the original experiment, all units for acceleration were measured in Gs (9.80665 m/seg2), 
+and all units for angular velocity are radians/second. There is no further information that allows the
+denormalization of the data so it will all be in the [-1,1] range.
+
 
 | Variable Name | Description | 
 | --- | --- | 
@@ -61,8 +65,12 @@ All values are normalized in the range [-1,1].
 
 ## Variables in the Frequency Domain 
 
-All units for acceleration are Gs (9.80665 m/seg2). All units for angular velocity are radians/second. 
-All values are normalized in the range [-1,1].
+All values are normalized in the range [-1,1]. 
+
+In the original experiment, all units for acceleration were measured in Gs (9.80665 m/seg2), 
+and all units for angular velocity are radians/second. There is no further information that allows the
+denormalization of the data so it will all be in the [-1,1] range.
+
  
 | Variable Name | Description | 
 | --- | --- | 
