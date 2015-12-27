@@ -17,30 +17,33 @@ and transformations to the raw data resulting in the tidy data.
 
 | Variable Name | Description | 
 | --- | --- | 
-| TimeDomain-BodyAcceleration-mean-X |                                 
- | TimeDomain-BodyAcceleration-mean-Y |                                 
-  | TimeDomain-BodyAcceleration-mean-Z |                                 
- | TimeDomain-BodyAcceleration-std-X |                                  
-  | TimeDomain-BodyAcceleration-std-Y |                                  
-   | TimeDomain-BodyAcceleration-std-Z |                                  
-   | TimeDomain-GravityAcceleration-mean-X |                              
-   | TimeDomain-GravityAcceleration-mean-Y |                              
-   | TimeDomain-GravityAcceleration-mean-Z |                              
-  | TimeDomain-GravityAcceleration-std-X |                               
-  | TimeDomain-GravityAcceleration-std-Y |                               
-  | TimeDomain-GravityAcceleration-std-Z |                               
-  | TimeDomain-BodyAccelerationJerk-mean-X |                             
-  | TimeDomain-BodyAccelerationJerk-mean-Y |                             
-  | TimeDomain-BodyAccelerationJerk-mean-Z |                             
-  | TimeDomain-BodyAccelerationJerk-std-X |                              
-  | TimeDomain-BodyAccelerationJerk-std-Y |                              
-  | TimeDomain-BodyAccelerationJerk-std-Z |                              
-  | TimeDomain-BodyAngularVelocity-mean-X |                              
-  | TimeDomain-BodyAngularVelocity-mean-Y |                              
-  | TimeDomain-BodyAngularVelocity-mean-Z |                              
-  | TimeDomain-BodyAngularVelocity-std-X |                               
-  | TimeDomain-BodyAngularVelocity-std-Y |                               
-  | TimeDomain-BodyAngularVelocity-std-Z |                               
+| TimeDomain-BodyAcceleration-mean-X | Mean Body Acceleration on axis X |                           
+| TimeDomain-BodyAcceleration-mean-Y | Same for axis Y |                               
+| TimeDomain-BodyAcceleration-mean-Z | Same for axis Z |                                                              
+| TimeDomain-BodyAcceleration-std-X | Standard Deviation Acceleration on axis X |                             
+| TimeDomain-BodyAcceleration-std-Y | Same for axis Y |                                   
+| TimeDomain-BodyAcceleration-std-Z | Same for axis Z |                                   
+
+| TimeDomain-GravityAcceleration-mean-X | Mean Gravity Acceleration on axis X |              
+| TimeDomain-GravityAcceleration-mean-Y | Same for axis Y |                                
+| TimeDomain-GravityAcceleration-mean-Z | Same for axis Y |                               
+  | TimeDomain-GravityAcceleration-std-X | Standard Deviation Gravity Acceleration on axis X |                                      
+  | TimeDomain-GravityAcceleration-std-Y | Same for axis Y |                                 
+  | TimeDomain-GravityAcceleration-std-Z | Same for axis Y |                                 
+  | TimeDomain-BodyAccelerationJerk-mean-X | Mean Body Acceleration (Jerk) on axis X |                            
+  | TimeDomain-BodyAccelerationJerk-mean-Y | Same for axis Y |                               
+  | TimeDomain-BodyAccelerationJerk-mean-Z | Same for axis Y |                               
+  | TimeDomain-BodyAccelerationJerk-std-X | Standard Deviation Body Acceleration (Jerk) on axis X |                                
+  | TimeDomain-BodyAccelerationJerk-std-Y | Same for axis Y |                                
+  | TimeDomain-BodyAccelerationJerk-std-Z | Same for axis Y |                                
+  | TimeDomain-BodyAngularVelocity-mean-X | Mean Body Angular Velocity on axis X |                                
+  | TimeDomain-BodyAngularVelocity-mean-Y | Same for axis Y |                                
+  | TimeDomain-BodyAngularVelocity-mean-Z | Same for axis Y |                                
+  | TimeDomain-BodyAngularVelocity-std-X | Standard Deviation Body Angular Velocity on axis X |                              
+  | TimeDomain-BodyAngularVelocity-std-Y | Same for axis Y |                                 
+  | TimeDomain-BodyAngularVelocity-std-Z | Same for axis Y |   
+  
+                                 
   | TimeDomain-BodyAngularVelocityJerk-mean-X |                          
   | TimeDomain-BodyAngularVelocityJerk-mean-Y |                          
   | TimeDomain-BodyAngularVelocityJerk-mean-Z |                          
