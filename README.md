@@ -4,50 +4,19 @@ This is the README file for my solution to the **Getting and Cleaning Data cours
 
 There is a single R file on this repo: `run_analysis.R`. This R file performs the following actions:
 
-1. Reads the feature names file (`UCI HAR Dataset/features.txt`)
-2. Reads the train data set from file (`UCI HAR Dataset/train/X_train.txt`) and use the feature names to name the columns in the train data set.
-3. Test 
+1. Reads the feature names file `UCI HAR Dataset/features.txt`
+2. Reads the train data from file `UCI HAR Dataset/train/X_train.txt` and use the feature names to name the columns in the train data set.
+3. Reads the train subject from file `UCI HAR Dataset/train/subject_train.txt`, label its single column to "Subject" and convert it to factor.
+4. Reads the train labels from file `UCI HAR Dataset/train/y_train.txt`, label its single column to "Activity", convert it to factor and set the factor levels to one of "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"
+5. Concatenates (`cbind`) the three data sets into a `train` data set.
+6. Do steps 2..5 for the test data sets (file names are `UCI HAR Dataset/test/X_test.txt`, `UCI HAR Dataset/test/subject_test.txt` and `UCI HAR Dataset/test/y_test.txt`).
+7. Concatenate (`rbind`) the train and test data sets.
 
 ## Codebook
 
 The project requirement asked to 
 
 
-
-train <- read.table("UCI HAR Dataset/train/X_train.txt")
-names(train) <- featureNames$V2
-# There is also information on the subjects (which should be represented as factors)...
-train.subject <- read.table("UCI HAR Dataset/train/subject_train.txt")
-names(train.subject) <- c("Subject")
-train.subject$Subject <- as.factor(train.subject$Subject)
-# ...and on the training labels.
-train.labels <- read.table("UCI HAR Dataset/train/y_train.txt")
-# Labels correspond to activities (see the README.txt file with the original data distribution),
-# let's use factors instead of numbers for the labels with proper activities' titles.
-names(train.labels) <- c("Activity")
-train.labels$Activity <- as.factor(train.labels$Activity)
-levels(train.labels$Activity) <- c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS",
-                                   "SITTING","STANDING","LAYING")
-# Let's add those extra columns to the main dataset.
-train <- cbind(train,train.subject,train.labels)
-
-# Let's do the same thing for the test data now -- read, label columns, add subject and label data.
-test <- read.table("UCI HAR Dataset/test/X_test.txt")
-names(test) <- featureNames$V2
-# There is also information on the subjects (which should be represented as factors)...
-test.subject <- read.table("UCI HAR Dataset/test/subject_test.txt")
-names(test.subject) <- c("Subject")
-test.subject$Subject <- as.factor(test.subject$Subject)
-# ...and on the training labels.
-test.labels <- read.table("UCI HAR Dataset/test/y_test.txt")
-# Labels correspond to activities (see the README.txt file with the original data distribution),
-# let's use factors instead of numbers for the labels with proper activities' titles.
-names(test.labels) <- c("Activity")
-test.labels$Activity <- as.factor(test.labels$Activity)
-levels(test.labels$Activity) <- c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS",
-                                 "SITTING","STANDING","LAYING")
-# Let's add those extra columns to the main dataset.
-test <- cbind(test,test.subject,test.labels)
 
 # -----------------------------------------------------------------------------
 # Now with the data properly loaded and labeled let's see the questions.
