@@ -2,94 +2,98 @@
 
 This file describes the variables in the data file `result.txt`, created by the script in `run_analysis.R`.
 
-The variables were selected from the full set from the "Human Activity Recognition Using Smartphones Dataset"
+The variables were selected from the full set from the *Human Activity Recognition Using Smartphones Dataset*. 
+Please read the file `README.txt` for more details on how they were measured.
+
+Variable names were extended/made more descriptive as per requirements. Since there are several variations on the measures
+that caused some long variable names.
 
 
-contains information about any variable names in your final tidy data set, a brief definition or purpose of each variable, any units of measurement, and transformations to the raw data resulting in the tidy data.
+
+contains information about any variable names in your final tidy data set, 
+a brief definition or purpose of each variable, any units of measurement, 
+and transformations to the raw data resulting in the tidy data.
 
 
 | Variable Name | Description | 
-
-
-
- [1] "TimeDomain-BodyAcceleration-mean-X"                                
- [2] "TimeDomain-BodyAcceleration-mean-Y"                                
- [3] "TimeDomain-BodyAcceleration-mean-Z"                                
- [4] "TimeDomain-BodyAcceleration-std-X"                                 
- [5] "TimeDomain-BodyAcceleration-std-Y"                                 
- [6] "TimeDomain-BodyAcceleration-std-Z"                                 
- [7] "TimeDomain-GravityAcceleration-mean-X"                             
- [8] "TimeDomain-GravityAcceleration-mean-Y"                             
- [9] "TimeDomain-GravityAcceleration-mean-Z"                             
-[10] "TimeDomain-GravityAcceleration-std-X"                              
-[11] "TimeDomain-GravityAcceleration-std-Y"                              
-[12] "TimeDomain-GravityAcceleration-std-Z"                              
-[13] "TimeDomain-BodyAccelerationJerk-mean-X"                            
-[14] "TimeDomain-BodyAccelerationJerk-mean-Y"                            
-[15] "TimeDomain-BodyAccelerationJerk-mean-Z"                            
-[16] "TimeDomain-BodyAccelerationJerk-std-X"                             
-[17] "TimeDomain-BodyAccelerationJerk-std-Y"                             
-[18] "TimeDomain-BodyAccelerationJerk-std-Z"                             
-[19] "TimeDomain-BodyAngularVelocity-mean-X"                             
-[20] "TimeDomain-BodyAngularVelocity-mean-Y"                             
-[21] "TimeDomain-BodyAngularVelocity-mean-Z"                             
-[22] "TimeDomain-BodyAngularVelocity-std-X"                              
-[23] "TimeDomain-BodyAngularVelocity-std-Y"                              
-[24] "TimeDomain-BodyAngularVelocity-std-Z"                              
-[25] "TimeDomain-BodyAngularVelocityJerk-mean-X"                         
-[26] "TimeDomain-BodyAngularVelocityJerk-mean-Y"                         
-[27] "TimeDomain-BodyAngularVelocityJerk-mean-Z"                         
-[28] "TimeDomain-BodyAngularVelocityJerk-std-X"                          
-[29] "TimeDomain-BodyAngularVelocityJerk-std-Y"                          
-[30] "TimeDomain-BodyAngularVelocityJerk-std-Z"                          
-[31] "TimeDomain-BodyAccelerationMagnitude-mean"                         
-[32] "TimeDomain-BodyAccelerationMagnitude-std"                          
-[33] "TimeDomain-GravityAccelerationMagnitude-mean"                      
-[34] "TimeDomain-GravityAccelerationMagnitude-std"                       
-[35] "TimeDomain-BodyAccelerationJerkMagnitude-mean"                     
-[36] "TimeDomain-BodyAccelerationJerkMagnitude-std"                      
-[37] "TimeDomain-BodyAngularVelocityMagnitude-mean"                      
-[38] "TimeDomain-BodyAngularVelocityMagnitude-std"                       
-[39] "TimeDomain-BodyAngularVelocityJerkMagnitude-mean"                  
-[40] "TimeDomain-BodyAngularVelocityJerkMagnitude-std"                   
-[41] "FrequencyDomain-BodyAcceleration-mean-X"                           
-[42] "FrequencyDomain-BodyAcceleration-mean-Y"                           
-[43] "FrequencyDomain-BodyAcceleration-mean-Z"                           
-[44] "FrequencyDomain-BodyAcceleration-std-X"                            
-[45] "FrequencyDomain-BodyAcceleration-std-Y"                            
-[46] "FrequencyDomain-BodyAcceleration-std-Z"                            
-[47] "FrequencyDomain-BodyAcceleration-meanFrequency-X"                  
-[48] "FrequencyDomain-BodyAcceleration-meanFrequency-Y"                  
-[49] "FrequencyDomain-BodyAcceleration-meanFrequency-Z"                  
-[50] "FrequencyDomain-BodyAccelerationJerk-mean-X"                       
-[51] "FrequencyDomain-BodyAccelerationJerk-mean-Y"                       
-[52] "FrequencyDomain-BodyAccelerationJerk-mean-Z"                       
-[53] "FrequencyDomain-BodyAccelerationJerk-std-X"                        
-[54] "FrequencyDomain-BodyAccelerationJerk-std-Y"                        
-[55] "FrequencyDomain-BodyAccelerationJerk-std-Z"                        
-[56] "FrequencyDomain-BodyAccelerationJerk-meanFrequency-X"              
-[57] "FrequencyDomain-BodyAccelerationJerk-meanFrequency-Y"              
-[58] "FrequencyDomain-BodyAccelerationJerk-meanFrequency-Z"              
-[59] "FrequencyDomain-BodyAngularVelocity-mean-X"                        
-[60] "FrequencyDomain-BodyAngularVelocity-mean-Y"                        
-[61] "FrequencyDomain-BodyAngularVelocity-mean-Z"                        
-[62] "FrequencyDomain-BodyAngularVelocity-std-X"                         
-[63] "FrequencyDomain-BodyAngularVelocity-std-Y"                         
-[64] "FrequencyDomain-BodyAngularVelocity-std-Z"                         
-[65] "FrequencyDomain-BodyAngularVelocity-meanFrequency-X"               
-[66] "FrequencyDomain-BodyAngularVelocity-meanFrequency-Y"               
-[67] "FrequencyDomain-BodyAngularVelocity-meanFrequency-Z"               
-[68] "FrequencyDomain-BodyAccelerationMagnitude-mean"                    
-[69] "FrequencyDomain-BodyAccelerationMagnitude-std"                     
-[70] "FrequencyDomain-BodyAccelerationMagnitude-meanFrequency"           
-[71] "FrequencyDomain-BodyBodyAccelerationJerkMagnitude-mean"            
-[72] "FrequencyDomain-BodyBodyAccelerationJerkMagnitude-std"             
-[73] "FrequencyDomain-BodyBodyAccelerationJerkMagnitude-meanFrequency"   
-[74] "FrequencyDomain-BodyBodyAngularVelocityMagnitude-mean"             
-[75] "FrequencyDomain-BodyBodyAngularVelocityMagnitude-std"              
-[76] "FrequencyDomain-BodyBodyAngularVelocityMagnitude-meanFrequency"    
-[77] "FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-mean"         
-[78] "FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-std"          
-[79] "FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-meanFrequency"
-[80] "Subject"                                                           
-[81] "Activity"                                    
+| TimeDomain-BodyAcceleration-mean-X |                                 
+ | TimeDomain-BodyAcceleration-mean-Y |                                 
+  | TimeDomain-BodyAcceleration-mean-Z |                                 
+ | TimeDomain-BodyAcceleration-std-X |                                  
+  | TimeDomain-BodyAcceleration-std-Y |                                  
+   | TimeDomain-BodyAcceleration-std-Z |                                  
+   | TimeDomain-GravityAcceleration-mean-X |                              
+   | TimeDomain-GravityAcceleration-mean-Y |                              
+   | TimeDomain-GravityAcceleration-mean-Z |                              
+  | TimeDomain-GravityAcceleration-std-X |                               
+  | TimeDomain-GravityAcceleration-std-Y |                               
+  | TimeDomain-GravityAcceleration-std-Z |                               
+  | TimeDomain-BodyAccelerationJerk-mean-X |                             
+  | TimeDomain-BodyAccelerationJerk-mean-Y |                             
+  | TimeDomain-BodyAccelerationJerk-mean-Z |                             
+  | TimeDomain-BodyAccelerationJerk-std-X |                              
+  | TimeDomain-BodyAccelerationJerk-std-Y |                              
+  | TimeDomain-BodyAccelerationJerk-std-Z |                              
+  | TimeDomain-BodyAngularVelocity-mean-X |                              
+  | TimeDomain-BodyAngularVelocity-mean-Y |                              
+  | TimeDomain-BodyAngularVelocity-mean-Z |                              
+  | TimeDomain-BodyAngularVelocity-std-X |                               
+  | TimeDomain-BodyAngularVelocity-std-Y |                               
+  | TimeDomain-BodyAngularVelocity-std-Z |                               
+  | TimeDomain-BodyAngularVelocityJerk-mean-X |                          
+  | TimeDomain-BodyAngularVelocityJerk-mean-Y |                          
+  | TimeDomain-BodyAngularVelocityJerk-mean-Z |                          
+  | TimeDomain-BodyAngularVelocityJerk-std-X |                           
+  | TimeDomain-BodyAngularVelocityJerk-std-Y |                           
+  | TimeDomain-BodyAngularVelocityJerk-std-Z |                           
+  | TimeDomain-BodyAccelerationMagnitude-mean |                          
+  | TimeDomain-BodyAccelerationMagnitude-std |                           
+  | TimeDomain-GravityAccelerationMagnitude-mean |                       
+  | TimeDomain-GravityAccelerationMagnitude-std |                        
+  | TimeDomain-BodyAccelerationJerkMagnitude-mean |                      
+  | TimeDomain-BodyAccelerationJerkMagnitude-std |                       
+  | TimeDomain-BodyAngularVelocityMagnitude-mean |                       
+  | TimeDomain-BodyAngularVelocityMagnitude-std |                        
+  | TimeDomain-BodyAngularVelocityJerkMagnitude-mean |                   
+  | TimeDomain-BodyAngularVelocityJerkMagnitude-std |                    
+  | FrequencyDomain-BodyAcceleration-mean-X |                            
+  | FrequencyDomain-BodyAcceleration-mean-Y |                            
+  | FrequencyDomain-BodyAcceleration-mean-Z |                            
+  | FrequencyDomain-BodyAcceleration-std-X |                             
+  | FrequencyDomain-BodyAcceleration-std-Y |                             
+  | FrequencyDomain-BodyAcceleration-std-Z |                             
+  | FrequencyDomain-BodyAcceleration-meanFrequency-X |                   
+  | FrequencyDomain-BodyAcceleration-meanFrequency-Y |                   
+  | FrequencyDomain-BodyAcceleration-meanFrequency-Z |                   
+  | FrequencyDomain-BodyAccelerationJerk-mean-X |                        
+  | FrequencyDomain-BodyAccelerationJerk-mean-Y |                        
+  | FrequencyDomain-BodyAccelerationJerk-mean-Z |                        
+  | FrequencyDomain-BodyAccelerationJerk-std-X |                         
+  | FrequencyDomain-BodyAccelerationJerk-std-Y |                         
+  | FrequencyDomain-BodyAccelerationJerk-std-Z |                         
+  | FrequencyDomain-BodyAccelerationJerk-meanFrequency-X |               
+  | FrequencyDomain-BodyAccelerationJerk-meanFrequency-Y |               
+  | FrequencyDomain-BodyAccelerationJerk-meanFrequency-Z |               
+  | FrequencyDomain-BodyAngularVelocity-mean-X |                         
+  | FrequencyDomain-BodyAngularVelocity-mean-Y |                         
+  | FrequencyDomain-BodyAngularVelocity-mean-Z |                         
+  | FrequencyDomain-BodyAngularVelocity-std-X |                          
+  | FrequencyDomain-BodyAngularVelocity-std-Y |                          
+  | FrequencyDomain-BodyAngularVelocity-std-Z |                          
+  | FrequencyDomain-BodyAngularVelocity-meanFrequency-X |                
+  | FrequencyDomain-BodyAngularVelocity-meanFrequency-Y |                
+  | FrequencyDomain-BodyAngularVelocity-meanFrequency-Z |                
+  | FrequencyDomain-BodyAccelerationMagnitude-mean |                     
+  | FrequencyDomain-BodyAccelerationMagnitude-std |                      
+  | FrequencyDomain-BodyAccelerationMagnitude-meanFrequency |            
+  | FrequencyDomain-BodyBodyAccelerationJerkMagnitude-mean |             
+  | FrequencyDomain-BodyBodyAccelerationJerkMagnitude-std |              
+  | FrequencyDomain-BodyBodyAccelerationJerkMagnitude-meanFrequency |    
+  | FrequencyDomain-BodyBodyAngularVelocityMagnitude-mean |              
+  | FrequencyDomain-BodyBodyAngularVelocityMagnitude-std |               
+  | FrequencyDomain-BodyBodyAngularVelocityMagnitude-meanFrequency |     
+  | FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-mean |          
+  | FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-std |           
+  | FrequencyDomain-BodyBodyAngularVelocityJerkMagnitude-meanFrequency | 
+  | Subject |                                                            
+  | Activity |                                     
