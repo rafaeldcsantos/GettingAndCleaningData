@@ -16,6 +16,7 @@ and transformations to the raw data resulting in the tidy data.
 
 
 | Variable Name | Description | 
+| --- | --- | 
 | TimeDomain-BodyAcceleration-mean-X |                                 
  | TimeDomain-BodyAcceleration-mean-Y |                                 
   | TimeDomain-BodyAcceleration-mean-Z |                                 
